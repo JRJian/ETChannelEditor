@@ -15,7 +15,6 @@
 static NSString * const kReuseIdentifier4Header = @"ETChannelEditorReusableHeaderView";
 static NSString * const kReuseIdentifier4Cell = @"ETChanncelEditorCell";
 
-API_AVAILABLE(ios(10.0))
 @interface ETChannelEditor()
 <
 UICollectionViewDelegate,
@@ -77,7 +76,7 @@ UICollectionViewDataSource
     CGPoint point = [gesture locationInView:_collectionView];
     switch (gesture.state) {
         case UIGestureRecognizerStateBegan:
-        { //手势开始
+        {
             [self beginInteractiveMovementAtPoint:point];
             break;
         }
@@ -97,6 +96,8 @@ UICollectionViewDataSource
     }
 }
 
+#pragma mark -
+#pragma mark Utilites
 - (void)beginInteractiveMovementAtPoint:(CGPoint)point {
     _sourceIndexPath = [self indexPathWithPoint:point blackIndexPath:nil];
     
@@ -160,8 +161,6 @@ UICollectionViewDataSource
     }];
 }
 
-#pragma mark -
-#pragma mark Utilites
 - (NSIndexPath *)indexPathWithPoint:(CGPoint)point blackIndexPath:(NSIndexPath *)blackIndexPath {
     NSIndexPath *retIndexPath = nil;
     
@@ -194,7 +193,6 @@ UICollectionViewDataSource
     return retIndexPath;
 }
 
-
 - (void)moveItemAtIndexPath:(NSIndexPath *)sourceIndexPath toIndexPath:(NSIndexPath*)destinationIndexPath {
     if (sourceIndexPath.section == 0 && destinationIndexPath.section == 0) {
         if (sourceIndexPath.row < self.pinChannels.count && destinationIndexPath.row < self.pinChannels.count) {
@@ -206,11 +204,7 @@ UICollectionViewDataSource
 }
 
 #pragma mark -
-#pragma mark UICollectionViewDelegate
-
-#pragma mark -
 #pragma mark UICollectionViewDataSource
-
 - (NSInteger)numberOfSectionsInCollectionView:(UICollectionView *)collectionView {
     return 2;
 }
@@ -305,8 +299,8 @@ UICollectionViewDataSource
             return;
         }
         
-        // 编辑状态
-        // 只剩下最少数量的时候不可删除
+        // Edited status
+        // Do not select when pinChannels_ count reach to minimumCountOfPinChannel
         if (self.pinChannels_.count == _minimumCountOfPinChannel)
             return;
         
