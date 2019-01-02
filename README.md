@@ -47,4 +47,4 @@ If you have feature requests or bug reports, feel free to help out by sending pu
 
 ## License
 
-`ETChannelEditor` is distributed under the terms and conditions of the [MIT license](https://github.com/ETChannelEditor/ETChannelEditor/blob/master/LICENSE). 
+`ETChannelEditor` is distributed under the terms and conditions of the [MIT license](https://github.com/JRJian/ETChannelEditor/blob/master/LICENSE). 
