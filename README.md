@@ -2,7 +2,7 @@
 
 `ETChannelEditor` is a clean and easy-to-use Channel editor to manager the channels on iOS.
 
-![ETChannelEditor]()
+![ETChannelEditor](https://github.com/JRJian/ETChannelEditor/blob/master/Snapshots/s1.png)
 
 ## Installation
 
@@ -43,12 +43,7 @@ ETChannelEditor *editor = [[ETChannelEditor alloc] initWithFrame:rect
 
 ## Contributing to this project
 
-If you have feature requests or bug reports, feel free to help out by sending pull requests or by [creating new issues](https://github.com/ETChannelEditor/ETChannelEditor/issues/new). Please take a moment to
-review the guidelines written by [Nicolas Gallagher](https://github.com/necolas):
-
-* [Bug reports](https://github.com/necolas/issue-guidelines/blob/master/CONTRIBUTING.md#bugs)
-* [Feature requests](https://github.com/necolas/issue-guidelines/blob/master/CONTRIBUTING.md#features)
-* [Pull requests](https://github.com/necolas/issue-guidelines/blob/master/CONTRIBUTING.md#pull-requests)
+If you have feature requests or bug reports, feel free to help out by sending pull requests or by [creating new issues](https://github.com/ETChannelEditor/ETChannelEditor/issues/new). 
 
 ## License
 
