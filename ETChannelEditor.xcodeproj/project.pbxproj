@@ -1,0 +1,392 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8E4B849F21D719D3006191E7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E4B849E21D719D3006191E7 /* AppDelegate.m */; };
+		8E4B84A221D719D3006191E7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E4B84A121D719D3006191E7 /* ViewController.m */; };
+		8E4B84A521D719D3006191E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E4B84A321D719D3006191E7 /* Main.storyboard */; };
+		8E4B84A721D719D7006191E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E4B84A621D719D7006191E7 /* Assets.xcassets */; };
+		8E4B84AA21D719D7006191E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E4B84A821D719D7006191E7 /* LaunchScreen.storyboard */; };
+		8E4B84AD21D719D7006191E7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E4B84AC21D719D7006191E7 /* main.m */; };
+		8E4B84BA21D71B0F006191E7 /* ETChannelEditor.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E4B84B921D71B0F006191E7 /* ETChannelEditor.m */; };
+		8E4B84BD21D71B2D006191E7 /* ETChanncelEditorCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E4B84BC21D71B2D006191E7 /* ETChanncelEditorCell.m */; };
+		8E4B84C021D758F2006191E7 /* ETChannelEditorReusableHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E4B84BF21D758F2006191E7 /* ETChannelEditorReusableHeaderView.m */; };
+		8E4B84C321D761BD006191E7 /* UIImage+ETAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E4B84C221D761BD006191E7 /* UIImage+ETAdd.m */; };
+		8E6FFC2321DC651800889039 /* PLUS@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E6FFC2121DC651800889039 /* PLUS@2x.png */; };
+		8E6FFC2421DC651800889039 /* CLOSE@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E6FFC2221DC651800889039 /* CLOSE@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8E4B849A21D719D3006191E7 /* ETChannelEditor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ETChannelEditor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E4B849D21D719D3006191E7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8E4B849E21D719D3006191E7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8E4B84A021D719D3006191E7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8E4B84A121D719D3006191E7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8E4B84A421D719D3006191E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8E4B84A621D719D7006191E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8E4B84A921D719D7006191E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8E4B84AB21D719D7006191E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E4B84AC21D719D7006191E7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8E4B84B821D71B0F006191E7 /* ETChannelEditor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ETChannelEditor.h; sourceTree = "<group>"; };
+		8E4B84B921D71B0F006191E7 /* ETChannelEditor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ETChannelEditor.m; sourceTree = "<group>"; };
+		8E4B84BB21D71B2D006191E7 /* ETChanncelEditorCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ETChanncelEditorCell.h; sourceTree = "<group>"; };
+		8E4B84BC21D71B2D006191E7 /* ETChanncelEditorCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ETChanncelEditorCell.m; sourceTree = "<group>"; };
+		8E4B84BE21D758F2006191E7 /* ETChannelEditorReusableHeaderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ETChannelEditorReusableHeaderView.h; sourceTree = "<group>"; };
+		8E4B84BF21D758F2006191E7 /* ETChannelEditorReusableHeaderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ETChannelEditorReusableHeaderView.m; sourceTree = "<group>"; };
+		8E4B84C121D761BD006191E7 /* UIImage+ETAdd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+ETAdd.h"; sourceTree = "<group>"; };
+		8E4B84C221D761BD006191E7 /* UIImage+ETAdd.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ETAdd.m"; sourceTree = "<group>"; };
+		8E6FFC2121DC651800889039 /* PLUS@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PLUS@2x.png"; sourceTree = "<group>"; };
+		8E6FFC2221DC651800889039 /* CLOSE@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CLOSE@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8E4B849721D719D3006191E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8E4B849121D719D3006191E7 = {
+			isa = PBXGroup;
+			children = (
+				8E4B849C21D719D3006191E7 /* ETChannelEditor */,
+				8E4B849B21D719D3006191E7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8E4B849B21D719D3006191E7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8E4B849A21D719D3006191E7 /* ETChannelEditor.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8E4B849C21D719D3006191E7 /* ETChannelEditor */ = {
+			isa = PBXGroup;
+			children = (
+				8E4B84B421D71A20006191E7 /* ETChannelEditor */,
+				8E4B849D21D719D3006191E7 /* AppDelegate.h */,
+				8E4B849E21D719D3006191E7 /* AppDelegate.m */,
+				8E4B84A021D719D3006191E7 /* ViewController.h */,
+				8E4B84A121D719D3006191E7 /* ViewController.m */,
+				8E4B84A321D719D3006191E7 /* Main.storyboard */,
+				8E4B84A621D719D7006191E7 /* Assets.xcassets */,
+				8E4B84A821D719D7006191E7 /* LaunchScreen.storyboard */,
+				8E4B84AB21D719D7006191E7 /* Info.plist */,
+				8E4B84AC21D719D7006191E7 /* main.m */,
+			);
+			path = ETChannelEditor;
+			sourceTree = "<group>";
+		};
+		8E4B84B421D71A20006191E7 /* ETChannelEditor */ = {
+			isa = PBXGroup;
+			children = (
+				8E6FFC2021DC651800889039 /* resource */,
+				8E4B84B821D71B0F006191E7 /* ETChannelEditor.h */,
+				8E4B84B921D71B0F006191E7 /* ETChannelEditor.m */,
+				8E4B84BB21D71B2D006191E7 /* ETChanncelEditorCell.h */,
+				8E4B84BC21D71B2D006191E7 /* ETChanncelEditorCell.m */,
+				8E4B84BE21D758F2006191E7 /* ETChannelEditorReusableHeaderView.h */,
+				8E4B84BF21D758F2006191E7 /* ETChannelEditorReusableHeaderView.m */,
+				8E4B84C121D761BD006191E7 /* UIImage+ETAdd.h */,
+				8E4B84C221D761BD006191E7 /* UIImage+ETAdd.m */,
+			);
+			path = ETChannelEditor;
+			sourceTree = "<group>";
+		};
+		8E6FFC2021DC651800889039 /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				8E6FFC2121DC651800889039 /* PLUS@2x.png */,
+				8E6FFC2221DC651800889039 /* CLOSE@2x.png */,
+			);
+			path = resource;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8E4B849921D719D3006191E7 /* ETChannelEditor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E4B84B021D719D7006191E7 /* Build configuration list for PBXNativeTarget "ETChannelEditor" */;
+			buildPhases = (
+				8E4B849621D719D3006191E7 /* Sources */,
+				8E4B849721D719D3006191E7 /* Frameworks */,
+				8E4B849821D719D3006191E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ETChannelEditor;
+			productName = ETChannelEditor;
+			productReference = 8E4B849A21D719D3006191E7 /* ETChannelEditor.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8E4B849221D719D3006191E7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Oscar;
+				TargetAttributes = {
+					8E4B849921D719D3006191E7 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 8E4B849521D719D3006191E7 /* Build configuration list for PBXProject "ETChannelEditor" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8E4B849121D719D3006191E7;
+			productRefGroup = 8E4B849B21D719D3006191E7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8E4B849921D719D3006191E7 /* ETChannelEditor */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8E4B849821D719D3006191E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E6FFC2321DC651800889039 /* PLUS@2x.png in Resources */,
+				8E4B84AA21D719D7006191E7 /* LaunchScreen.storyboard in Resources */,
+				8E4B84A721D719D7006191E7 /* Assets.xcassets in Resources */,
+				8E4B84A521D719D3006191E7 /* Main.storyboard in Resources */,
+				8E6FFC2421DC651800889039 /* CLOSE@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8E4B849621D719D3006191E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E4B84A221D719D3006191E7 /* ViewController.m in Sources */,
+				8E4B84BD21D71B2D006191E7 /* ETChanncelEditorCell.m in Sources */,
+				8E4B84C321D761BD006191E7 /* UIImage+ETAdd.m in Sources */,
+				8E4B84C021D758F2006191E7 /* ETChannelEditorReusableHeaderView.m in Sources */,
+				8E4B84BA21D71B0F006191E7 /* ETChannelEditor.m in Sources */,
+				8E4B84AD21D719D7006191E7 /* main.m in Sources */,
+				8E4B849F21D719D3006191E7 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8E4B84A321D719D3006191E7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E4B84A421D719D3006191E7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8E4B84A821D719D7006191E7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E4B84A921D719D7006191E7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8E4B84AE21D719D7006191E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8E4B84AF21D719D7006191E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8E4B84B121D719D7006191E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GWG8DJQC2H;
+				INFOPLIST_FILE = ETChannelEditor/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.personal.ETChannelEditor.fjeif;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8E4B84B221D719D7006191E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GWG8DJQC2H;
+				INFOPLIST_FILE = ETChannelEditor/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.personal.ETChannelEditor.fjeif;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8E4B849521D719D3006191E7 /* Build configuration list for PBXProject "ETChannelEditor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E4B84AE21D719D7006191E7 /* Debug */,
+				8E4B84AF21D719D7006191E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E4B84B021D719D7006191E7 /* Build configuration list for PBXNativeTarget "ETChannelEditor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E4B84B121D719D7006191E7 /* Debug */,
+				8E4B84B221D719D7006191E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8E4B849221D719D3006191E7 /* Project object */;
+}
