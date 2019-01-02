@@ -43,8 +43,8 @@ ETChannelEditor *editor = [[ETChannelEditor alloc] initWithFrame:rect
 
 ## Contributing to this project
 
-If you have feature requests or bug reports, feel free to help out by sending pull requests or by [creating new issues](https://github.com/ETChannelEditor/ETChannelEditor/issues/new). 
+If you have feature requests or bug reports, feel free to help out by sending pull requests or by [creating new issues](https://github.com/JRJian/ETChannelEditor/issues/new). 
 
 ## License
 
-`ETChannelEditor` is distributed under the terms and conditions of the [MIT license](https://github.com/SVProgressHUD/SVProgressHUD/blob/master/LICENSE). The success, error and info icons are made by [Freepik](http://www.freepik.com) from [Flaticon](http://www.flaticon.com) and are licensed under [Creative Commons BY 3.0](http://creativecommons.org/licenses/by/3.0/).
+`ETChannelEditor` is distributed under the terms and conditions of the [MIT license](https://github.com/ETChannelEditor/ETChannelEditor/blob/master/LICENSE). 
